@@ -36,8 +36,8 @@ WizardSettings.Instance.ViewResolver = Function(ByVal arg As Type) As Object
 ```
 
 ### 2 Create Wizard Control
-`xmlns:controls="clr-namespace:MvvmWizard.Controls;assembly=MvvmWizard"`
-`xmlns:simple="clr-namespace:Your.Namespace.For.Views"`
+`xmlns:controls="clr-namespace:MvvmWizard.Controls;assembly=MvvmWizard"
+xmlns:simple="clr-namespace:Your.Namespace.For.Views"`
 
 ```xml
 <controls:Wizard FinishCommand="{Binding CloseCommand}">
