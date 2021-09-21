@@ -42,9 +42,9 @@ WizardSettings.Instance.ViewResolver = Function(ByVal arg As Type) As Object
 
 ```xml
 <controls:Wizard FinishCommand="{Binding CloseCommand}">
-    <controls:WizardStep ViewType="{x:Type simple:WelcomeView}" BackButtonVisibility="Collapsed" />
-    <controls:WizardStep ViewType="{x:Type simple:RegistrationView}" />
-    <controls:WizardStep ViewType="{x:Type simple:RegistrationSummaryView}" ForwardButtonTitle="Finish" />
+    <controls:WizardStep ViewType="{x:Type simple:View1}" BackButtonVisibility="Collapsed" />
+    <controls:WizardStep ViewType="{x:Type simple:View2}" />
+    <controls:WizardStep ViewType="{x:Type simple:View3}" ForwardButtonTitle="Finish" />
 </controls:Wizard>
 ```
 ### Licence
