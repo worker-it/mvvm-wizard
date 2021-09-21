@@ -17,14 +17,27 @@ Supports [MahApps.Metro](https://mahapps.com/) themes
 [Documentation](https://github.com/lezhkin11/mvvm-wizard/wiki)
 
 ### 1 Set ViewResolver
+CSharp
 ```csharp
 using MvvmWizard.Classes;
+using Unity;
 
+var unityContainer = new UnityContainer();
 WizardSettings.Instance.ViewResolver = viewType => unityContainer.Resolve(viewType);
+```
+VB
+```vb
+Imports MvvmWizard.Classes
+Imports Unity
+
+WizardSettings.Instance.ViewResolver = Function(ByVal arg As Type) As Object
+                                           Return New UnityContainer().Resolve(arg)
+                                       End Function
 ```
 
 ### 2 Create Wizard Control
 `xmlns:controls="clr-namespace:MvvmWizard.Controls;assembly=MvvmWizard"`
+`xmlns:simple="clr-namespace:Your.Namespace.For.Views"`
 
 ```xml
 <controls:Wizard FinishCommand="{Binding CloseCommand}">
