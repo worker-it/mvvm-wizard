@@ -1,6 +1,4 @@
 # MVVM Wizard
-# [![NuGet](https://img.shields.io/nuget/v/MvvmWizard.svg?style=for-the-badge)](https://www.nuget.org/packages/MvvmWizard)
-# [![GitHub](https://img.shields.io/github/license/lezhkin11/mvvm-wizard?style=for-the-badge)](https://github.com/lezhkin11/mvvm-wizard/blob/master/LICENSE)
  
 MvvmWizard gives possibility to create wizard with steps in simply manner.
 It's highly configurable with set of built-in options and styles.
@@ -8,8 +6,8 @@ It's highly configurable with set of built-in options and styles.
 Supports [MahApps.Metro](https://mahapps.com/) themes
 
 ## Demo
-* [bin](https://github.com/lezhkin11/mvvm-wizard/releases/download/1.1.1/mvvm-wizrard-demo-bin.zip)
-* [code](https://github.com/lezhkin11/mvvm-wizard/tree/master/src/WizardDemo)
+* [bin](https://github.com/worker-it/mvvm-wizard/releases/download/1.1.1/mvvm-wizrard-demo-bin.zip)
+* [code](https://github.com/worker-it/mvvm-wizard/tree/master/src/WizardDemo)
 
 <div>
 <img alt="simpledemo" src="./docs/demo_wizard.gif">
